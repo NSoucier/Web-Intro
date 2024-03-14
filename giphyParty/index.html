@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Giphy Party!</title>
+  <style>
+    h1 {
+      color: white;
+      display: flex;
+      justify-content: center;
+    }
+    html {
+      background-image: linear-gradient(rgb(61, 61, 61), rgb(0, 0, 0) 40%);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+    }
+    #submit {
+      background-color: rgb(51, 51, 51);
+      color: white;
+    }
+    #remove {
+      background-color: rgb(195, 60, 60);
+      color: white;
+    }
+    #form {
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: center;
+
+    }
+  </style>
+</head>
+
+<body>
+  <h1>GIPHY PARTY</h1>
+
+  <form action="" id="form">
+    <input type="text" name="" id="input" placeholder="Enter a search term">
+    <button id="submit">Search Giphy!</button>
+    <input type="button" name="" id="remove" value="Remove Images">
+  </form>
+
+  <div id="giphyContainer">
+
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="app.js"></script>
+</body>
+
+</html>
